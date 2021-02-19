@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang= "pt"> 
+	<head>
+		<title> abertura de chamada </title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		
+		<style>
+				body{
+				background-image:url("fundob.jpg");
+				}
+				
+				#menu ul{
+					margin: 0;
+					background-color: yellow;
+					list-style: none;
+				}
+				
+				#menu ul li{
+					display: inline;
+				}
+				
+				#menu ul li a {
+					padding: 15px;
+					display: inline-block;
+					font-family: "Roboto";
+					text-decoration: none;
+				}
+				
+				#menu ul li a:hover {
+					color: orange;
+					text-decoration: none;
+					cursor: pointer;
+					
+				}
+				
+				
+		</style>
+
+			<div id = "menu">
+				<ul>
+					<li><a href = "inicio.html"> Início</a> </li>
+					<li><a href = "Destine.html">Destinos de viagem </a> </li>
+					<li><a href = "frota.html">Informações de frota</a> </li>
+					<li><a href = "contratos.html"> Contratação de funcionários</a> </li>
+					<li><a href = "chamada.html"> Abertura de chamada </a> </li>
+				</ul>
+			</div>
+			
+		<style>
+			form {border:1px solid #CCC; 
+			float:left; 
+			padding: 30px; 
+			margin-left: 500px; 
+			margin-top: 5px; 
+			font:16px Verdana, Geneva, sans-serif; 
+			color: #B8860B}
+			
+			form input {padding:fpx; 
+			width: 360px; 
+			display: block;}
+			
+			form textarea{ width: 354px; 
+			display:block;}
+			
+			form button{width: 150px; 
+			cursor: pointer; 
+			background-color: green; 
+			color: white;}
+			
+		</style>
+	</head>
+	<body>
+		<br> 
+				<h1> <center> <font color= "white" width = "100"> ABERTURA DE CHAMADA </font> </center> </h1> 
+				<img src= "logoo.jpg" width= "120" height= "100"/> <br>
+				<font color= "cyan" width = "50"> Busier <br> </font>
+				<font color= "yellow" width = "50"> Nordestino <br> </font>
+	
+	<form action="https://formspree.io/f/xzbkaval" method="post">
+	
+		Nome do funcionário: <input type="text" id="nome" /> <br>
+		Asssunto de chamada: <input type="assunto" id="assunto" /> <br> 
+		Categoria de chamada: <select  id = " fcategoria " name = "categoria" >
+			<option  value = " adm " name = " administrativa" > Administrativa</option >
+			<option  value = " ger " name = " Gerencial"> Gerencial</option>
+			<option  value = " opr " name = " Operacional " > Operacional </option > 
+			</select>  <br> <br>
+			  
+		Detalhamento: <textarea name="sms" cols="35" rows= "10"> </textarea>  <br>
+		
+		<div class= "but">
+			<button id= "but-enviar" type= "sybmit"> Enviar </button>
+			<button id= "but-voltar" type="button" onclick= "location.href= 'chamada.html'"> Voltar </button>
+
+		</div>
+	</form>
+	</body>	
+</html>
+				
+				
+				
+				 
