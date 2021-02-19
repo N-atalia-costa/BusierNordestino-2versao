@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang= "pt"> 
+	<head>
+		<title> formalario de contratacao </title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		
+		<style>
+				body{
+				background-image:url("fundob.jpg");
+				}
+				
+				#menu ul{
+					margin: 0;
+					background-color: yellow;
+					list-style: none;
+				}
+				
+				#menu ul li{
+					display: inline;
+					position: static;
+				}
+				
+				#menu ul li a {
+					padding:15px;
+					display: inline-block;
+					color: black;
+					text-decoration: none;
+					font-family: "Roboto"
+				}
+				
+				#menu ul li a:hover {
+					color: orange;
+					text-decoration: none;
+					cursor: pointer;
+					
+				}
+				
+				
+		</style>
+
+			<div id = "menu">
+				<ul>
+					<li><a href = "inicio.html"> Início</a> </li>
+					<li><a href = "Destine.html">Destinos de viagem </a> </li>
+					<li><a href = "frota.html">Informações de frota</a> </li>
+					<li><a href = "contratos.html"> Contratação de funcionários</a> </li>
+					<li><a href = "chamada.html"> Abertura de chamada </a> </li>
+				</ul>
+			</div>
+		<style>
+			form {border:1px solid #CCC; 
+			float:left; 
+			padding: 30px; 
+			margin-left: 500px; 
+			margin-top: 5px; 
+			font:16px Verdana, Geneva, sans-serif; 
+			color: #B8860B}
+			
+			form input {padding:fpx; 
+			width: 360px; 
+			display: block;}
+			
+			form textarea{ width: 354px; 
+			display:block;}
+			
+			form button{width: 150px; 
+			cursor: pointer; 
+			background-color: green; 
+			color: white;}
+			
+		</style>
+		
+	</head>
+	<body>
+				<h1> <center> <font color= "white" width = "100"> FORMULÁRIO PARA CONTRATAÇÃO DE FUNCIONÁRIOS </font> </center> </h1> 
+				<img src= "logoo.jpg" width= "120" height= "100"/> <br>
+				<font color= "cyan" width = "50"> Busier <br> </font>
+				<font color= "yellow" width = "50"> Nordestino <br> </font>
+				
+	
+	<form action="https://formspree.io/f/xzbkaval" method="post">
+	
+		Nome do solicitante: <input type="text" id="nome" /> <br>
+		E-mail: <input type="text" id="assunto" /> <br> 
+		Telefone: <input type= "number" id= "telefone"/> <br>
+		Cargo desejado: <select  id = " fcargo " name = "cargo" >
+			<option  value = "text" name = "motorista"  > Motorista</option >
+			<option  value = "text" name = "vendedor"  > Vendedor(a) de passagem (guichê)</option>
+			<option  value = "text" name = "supervisor " > Supervisor </option >
+			<option  value = "text" name = "Auxiliar administrativo " > Auxiliar administrativo </option >
+			<option  value = "text" name = "Gerente" > Gerente </option > 
+			</select>  <br> <br>
+			  
+		DETALHAMENTO: <textarea name="sms" cols="35" rows= "10"> </textarea> <br>
+		
+		<div class= "butt">
+		
+			<button id= "butt-enviar" type= "submit"> Enviar </button>
+			<button id= "butt-voltar" type= "button" onclick= "history.go(0)" "location.href= 'chamada.html'"> Voltar </button>
+		</div>
+	</form>
+	</body>		
+</html>
+				
+				
+				
+				
+				
+				
+				
