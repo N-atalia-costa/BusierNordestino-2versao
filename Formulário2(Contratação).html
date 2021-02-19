@@ -1,0 +1,42 @@
+
+
+
+<!DOCTYPE html> 
+
+<html>
+	<head>
+	<meta http-equiv= "Content-Type" content= " text html"/>
+	<title> formulario para contratação de funcionarios </title>
+	
+	<style>
+	form {border:1px solid #CCC; float:left; padding: 12px; margin-left: 500px; margin-top: 50px; font:16x Verdana, Geneva, sans-serif; color: #B8860B}
+	form input {padding:fpx; width: 360px; display: block;}
+	form textarea{ width: 354px; display:block;}
+	form .button{width: 150px; cursor: pointer;}
+	</style>	
+	</head> 
+	<body>
+	<h1> <center> <font color= "orange" type= "text" width = "100">  Requerimento para contratação de funcionários  </font> </center> </h1> <br>
+	
+	<form action="https://formspree.io/f/xzbkaval" method="post">
+	
+		Nome do solicitante: <input type="text" id="nome" /> <br>
+		E-mail: <input type="text" id="assunto" /> <br> 
+		Telefone: <input type= "number" id= "telefone"/> <br>
+		Cargo desejado: <select  id = " fcargo " name = "cargo" >
+			<option  value = "text" name = "motorista" > Motorista</option >
+			<option  value = "text" name = "vendedor"> Vendedor(a) de passagem (guichê)</option>
+			<option  value = "text" name = "supervisor " > Supervisor </option >
+			<option  value = "text" name = "Auxiliar administrativo " > Auxiliar administrativo </option >
+			<option  value = "text" name = "Gerente" > Gerente </option > 
+			</select>  <br> <br>
+			  
+		DETALHAMENTO: <textarea name="sms" cols="35" rows= "10"> </textarea> 
+		
+		<div class="button">
+			<button type="submit">Enviar</button>
+			 <button type="submit">Voltar</button>
+		</div>
+	</form>
+	</body>	
+</html>
