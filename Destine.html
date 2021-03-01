@@ -1,19 +1,28 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang= "pt"> 
-	<head>
-		<title> destinos de viagem </title>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<head> 
+		<title> DESTINOS DE VIAGEM </title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/> 
 		
+			<style>
+				#logo ul{ 
+				font-size: 25px;
+				font-family: "Roboto";
+				} 
+			</style> 
 		
+			<div id = "logo">
+				<ul>
+				<center> <font color= "#00477e"  width = "50"> Busier  </font> 
+				<font color= "#CD853F" width = "50"> Nordestino </font> </center>
+				</ul>
+			</div>
+
 		<style>
-				body{
-				background-image:url("fundob.jpg");
-				border: 2px solid #D3D3D3;
-				}
 				
 				#menu ul{
 					margin: 0;
-					background-color: yellow;
+					background-color: #CD853F;
 					list-style: none;
 				}
 				
@@ -22,19 +31,18 @@
 				}
 				
 				#menu ul li a {
-					padding: 15px;
+					padding: 10px  50px;
 					display: inline-block;
 					font-family: "Roboto";
 					text-decoration: none;
+					color: white;
 				}
 				
 				#menu ul li a:hover {
 					color: orange;
 					text-decoration: none;
-					cursor: pointer;
-					
+					cursor: pointer;	
 				}
-				
 				
 				#iti ul{
 					margin: 0;
@@ -50,13 +58,7 @@
 					font-family: "Courier new";
 					font-size: 21px;
 					text-decoration: underline;
-					color: pink
-				}
-				
-				.box ul img {
-					display: inline-block;
-					padding-left: 15px;
-					
+					color: red;
 				}
 				
 				
@@ -64,100 +66,134 @@
 
 			<div id = "menu">
 				<ul>
-					<li><a href = "Inicio.html"> Início</a> </li>
-					<li><a href = "Destine.html">Destinos de viagem </a> </li>
-					<li><a href = "frota.html">Informações de frota</a> </li>
-					<li><a href = "contratos.html"> Contratação de funcionários</a> </li>
-					<li><a href = "chamada.html"> Abertura de chamada </a> </li>
+					<li><a href = "Inicio.html"> INÍCIO</a> </li>
+					<li><a href = "Destine.html">DESTINOS </a> </li>
+					<li><a href = "frota.html">INFORMAÇÕES DE FROTA</a> </li>
+					<li><a href = "contratos.html"> CONTRATAÇÃO DE FUNCIONÁRIOS</a> </li>
+					<li><a href = "chamada.html"> ABERTURA DE CHAMADA </a> </li>
 				</ul>
 			</div>
 	</head>
+	
 	<body>
 		<br>
-				<h1> <center> <font color= "white" width = "100"> DESTINOS DE VIAGEM </font> </center> </h1> 
-				<img src= "logoo.jpg" width= "120" height= "100"/> <br>
-				<font color= "cyan" width = "50"> Busier <br> </font>
-				<font color= "yellow" width = "50"> Nordestino </font> <br><br>
-				
-				
-			<div id = "iti">
-				<ul>
-					<li> <a href= "itinerario.html" > Itinerário de viagem </a> </li> <br> <br> <br> <br>
-				</ul>
-			</div>
-			
-				
-	<div class="box">
-		<ul>
-			<img src= "Alagoas.jpg" width= "340"  height= "220"/> <br> </br> <br> </br>
-			<font color= "yellow"  width= "25"> Praia do Maragogi, Maceió, Alagoas </font> <br> </br> <br> </br>
-		</ul>
-	</div>
+				<h1> <center> <font color= "black" width = "100"> DESTINOS DE VIAGEM </font> </center> </h1> 
 
 
-	<div class="box">
-		<ul>
-			<img src= "Bahia.jpg" width= "340" height= "220"/> <br> </br> <br> </br>
-			<font color= "yellow" width = "25"> Morro de São Paulo, Costa do Dendê, Bahia </font> <br> </br> <br> </br>
-		</ul>
-	</div>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-	<div class="box">
-		<ul>
-			<img src= "Ceara.jpg" width= "340" height= "220"/> <br> </br> <br> </br>
-			<font color= "yellow" width = "25"> Lagoa do Paraíso, Jijoca, Ceará  </font> <br> </br> <br> </br>
-		</ul>
-	</div>
+<style>
+.w3-button {width:300px;
+background-color: #00477e; 
+color: white;
+}
 
-	<div class="box">
-		<ul>
-			<img src= "Maranhao.jpg" width= "340" height= "220"/> <br> </br> <br> </br>
-			<font color= "yellow" width = "25"> Teatro Arthur Azevedo, São Luiz, Maranhão </font> <br> </br> <br> </br>
-		</ul>
-	</div>
+</style>
 
-	<div class="box">
-		<ul>
-			<img src= "Paraiba.jpg" width= "340" height= "220"/>  <br> </br> <br> </br>
-			<font color= "yellow" width = "25"> Praia de Coqueirinho, Conde, Paraíba </font> <br> </br> <br> </br>
-		</ul>
-	</div>
+<div class="w3-container" style="text-align:right; width:100%; padding:0;" >
+  <p><button class="w3-button" id=" but-voltar" type="button" onclick= "location.href= 'itinerario.html'"> ITINERÁRIO DE VIAGEM </button> </p> <br> <br>
+</div>
 
-	<div class="box">
-		<ul>
-			<img src= "Pernambuco.jpg" width= "340" height= "220"/> <br> </br> <br> </br>
-			<font color= "yellow" width = "25"> Porto de Galinhas, Ipojuca, Pernambuco </font> <br> </br> <br> </br>
-		</ul>
-	</div>
 
-	<div class="box">
-		<ul>
-			<img src= "Piaui.png" width= "340" height= "220"/> <br> </br> <br> </br>
-			<font color= "yellow" width = "25"> Parque Potycabana, Teresina, Piauí </font> <br> </br> <br> </br>
-		</ul>
-	</div>
+<style>
+.w3-card{
+margin-left: 20px;
+}
 
-	<div class="box">
-		<ul>
-			<img src= "Rn.jpg" width= "340" height= "220"/> <br> </br> <br> </br>
-			<font color= "yellow" width = "25"> Dunas de Genipabu, Extremox, Rio Grande do Norte </font> <br> </br> <br> </br>
-		</ul>
-	</div>
 
-	<div class="box">
-		<ul>
-			<img src= "Sergipe.jpg" width= "340" height= "220"/> <br> </br> <br> </br>
-			<font color= "yellow" width = "25"> Praia de Atalaia, Aracaju, Sergipe </font> <br> </br> <br> </br>
-		</ul>
-	</div>
+</style>
 
-	<style>
-	div.box {
-		width: 430px;
-		display: inline-block;
-		font-family: Arial;
-	}
-	</style>
+ <div class="w3-third">
+  <p class= "w3-margin" >ALAGOAS</p>
+
+  <div class="w3-card" style= "width:300px">
+    <img src="imagens/Alagoas.jpg" width= "300" height= "250"/> 
+    <font color= "black" >Praia do Maragogi, Maceió</font>
+    </div>
+  </div>
+
+
+<div class="w3-third">
+  <p class= "w3-margin"> BAHIA</p>
+
+  <div class="w3-card" style="width:300px" >
+    <img src="imagens/Bahia.jpg" width= "300" height= "250"/>
+      <font color= "black" > Morro de São Paulo, Costa do Dendê </font>
+    </div>
+  </div>
+
+
+<div class="w3-third">
+   <p class= "w3-margin"> CEARÁ </p>
+
+  <div class="w3-card" style="width:300px">
+    <img src="imagens/Ceara.jpg" width= "300" height= "250"/>
+    <font color= "black" > Lagoa do Paraíso, Jijoca </font> 
+    </div>
+  </div> 
+
+<div class="w3-third">
+   <p class= "w3-margin"> MARANHÃO </p>
+
+  <div class="w3-card" style="width:300px">
+    <img src="imagens/Maranhao.jpg" width= "300" height= "250"/>
+      <font color= "black" > Teatro Arthur Azevedo, São Luiz </font> 
+    </div>
+  </div>
+
+
+
+<div class="w3-third">
+  <p class= "w3-margin">PARAÍBA<p>
+
+  <div class="w3-card" style="width:300px">
+    <img src="imagens/Paraiba.jpg" width= "300" height= "250"/>
+      <font color= "black" > Praia de Coqueirinho, Conde </font> 
+    </div>
+  </div>
+
+
+<div class="w3-third">
+  <p class= "w3-margin">PERNAMBUCO </p>
+
+  <div class="w3-card" style="width:300px">
+    <img src="imagens/Pernambuco.jpg" width= "300" height= "250"/>
+    <font color= "black" > Porto de Galinhas, Ipojuca </font> 
+    </div>
+  </div>
+
+<div class="w3-third">
+  <p class= "w3-margin">PIAUÍ </p>
+
+  <div class="w3-card" style="width:300px">
+    <img src="imagens/Piaui.png" width= "300" height= "250"/>
+    <font color= "black" > Parque Potycabana, Teresina </font> </td>
+    </div>
+  </div>
+
+
+<div class="w3-third">
+  <p class= "w3-margin">RIO GRANDE DO NORTE </p>
+
+  <div class="w3-card" style="width:300px">
+    <img src="imagens/Rn.jpg" width= "300" height= "250"/>
+    <font color= "black" > Dunas de Genipabu, Extremox </font> 
+    </div>
+  </div>
+
+
+
+<div class="w3-third">
+  <p class= "w3-margin">SERGIPE </p>
+
+  <div class="w3-card" style="width:300px">
+    <img src="imagens/Sergipe.jpg" width= "300" height= "250"/>
+      <font color= "black" > Praia de Atalaia, Aracaju </font> 
+    </div>
+  </div>
+
 
 	</body>
 </html>
